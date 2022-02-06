@@ -1,2 +1,3 @@
-# shodan_download
-require apikey 
+# shodan-api
+
+useless tool i suggest better to use shodan-cli 
