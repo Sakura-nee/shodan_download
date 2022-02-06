@@ -45,7 +45,7 @@ def save_result(json_data):
         num_result += 1
         open('ip_result.txt', 'a').write(final_data + '\n')
 
-min_page = 80
+min_page = 0
 while True:
     if num_result > max_result:
         break
@@ -64,7 +64,7 @@ while True:
             except Exception as err:
                 print(str(results))
                 print(str(err) + ' - ERROR CANT LOADS JSON RESPON')
-                x = input('input R for reload')
+                x = input('input R for reload ')
                 if x == 'R' or x == 'r':
                     continue
     min_page += 1
